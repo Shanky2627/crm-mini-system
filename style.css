@@ -1,10 +1,10 @@
 body {
-  font-family: Arial;
-  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   background: white;
   padding: 20px;
@@ -12,23 +12,56 @@ body {
   border-radius: 10px;
 }
 
+h1 {
+  text-align: center;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.dashboard div {
+  flex: 1;
+  background: #e9ecef;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Form */
+.form {
+  margin: 10px 0;
+}
+
 input, select {
   padding: 8px;
   margin: 5px;
 }
 
+/* Button */
 button {
-  padding: 8px 12px;
-  background: blue;
-  color: white;
+  padding: 6px 10px;
   border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
 }
 
+button:hover {
+  opacity: 0.85;
+}
+
+/* Table */
 table {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
   border-collapse: collapse;
+  background: white;
 }
 
 th, td {
